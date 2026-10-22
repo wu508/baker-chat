@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.wanye.bakerchat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "bakerchat-refmap.json",
+  "client": [
+    "MinecraftClientMixin",
+    "GlyphAtlasTextureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

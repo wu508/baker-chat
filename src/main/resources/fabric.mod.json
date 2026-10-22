@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bakerchat",
+  "version": "${version}",
+  "name": "Baker Chat",
+  "description": "把原版聊天框换成《明日方舟：终末地》Baker 风格的会话界面。",
+  "authors": [
+    "Wanye-7300"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.wanye.bakerchat.BakerChatClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "bakerchat.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "baker:noto_sans_sc.ttf",
+      "size": 10.0,
+      "oversample": 2.0,
+      "shift": [0, 0],
+      "skip": ""
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}
